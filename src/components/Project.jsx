@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
@@ -57,7 +58,7 @@ const Project = () => {
       </div>
       <br />
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-        <div className=" w-full">
+        <div className=" w-full lg:items-center p-2">
           <Swiper
             spaceBetween={20}
             breakpoints={{

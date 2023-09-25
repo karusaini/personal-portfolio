@@ -8,20 +8,20 @@ const About = () => {
   ];
   return (
     <section id="about" className="py-10 text-white">
-      <div className="text-center mt-8">
+      <div className="text-center mt-8 ">
         <h3 className="text-4xl font-semibold">
           About <span className="text-violet-600">Me</span>
         </h3>
-        <p className="text-gray-400 my-3 text-lg">Introduce Myself</p>
-        <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
+        <p className="text-gray-400 my-3 text-lg ">Introduce Myself</p>
+        <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl">
           <div className="p-2">
-            <div className="text-gray-300 my-3">
+            <div className="text-gray-300 my-3 m-20">
               <p className="text-justify leading-7 w-11/12 mx-auto">
                 I'm currently a Full Stack Developer seeking many ways to
                 improve my skills through problem-solving and creating various
-                projrcts!
+                projects!
               </p>
-              <div className="flex mt-10 items-center gap-7">
+              <div className="flex mt-10 items-center gap-e7">
                 {info.map((content) => (
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-white">
@@ -35,7 +35,12 @@ const About = () => {
               <br />
               <br />
               <a href="./src/assets/Code_a_program.pdf" download>
-                <button className="btn-primary">Download CV</button>
+                <button
+                  className="btn-primary 
+                "
+                >
+                  Download CV
+                </button>
               </a>
             </div>
           </div>
@@ -44,7 +49,7 @@ const About = () => {
               <img
                 src={aboutImg}
                 alt=""
-                className="w-full object-cover bg-violet-600 rounded-xl"
+                className="w-full object-cover bg-violet-600 rounded-xl ml-60"
               />
             </div>
           </div>
@@ -53,5 +58,4 @@ const About = () => {
     </section>
   );
 };
-
 export default About;

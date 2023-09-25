@@ -14,7 +14,7 @@ body {
 }
 
 .btn-primary {
-  @apply bg-violet-600 font-semibold text-white  md:mx-8 rounded-full py-3 px-12 flex items-center gap-2 ml-60;
+  @apply bg-violet-600 font-semibold text-white  md:mx-8 rounded-full py-3 px-28 flex gap-2;
 }
  
 .aboutImg::after {

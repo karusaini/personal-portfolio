@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-// template_dny584s
-
-// service_jidfq2c
-
-// Msxyjq7qoGpgFa2Yf public key
-
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
@@ -24,8 +18,8 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`fixed w-full left-0 top-0 z-[999] transition-all ${
-        sticky ? "bg-white  text-gray-900" : "text-white"
+      className={` fixed w-full left-0 top-0 z-[999] transition-all ${
+        sticky ? "bg-white  text-gray-900" : "text-white "
       }`}
     >
       <div className="flex items-center justify-between">
@@ -56,7 +50,7 @@ const Navbar = () => {
           <ion-icon name="menu"></ion-icon>
         </div>
         <div
-          className={`md:hidden text-gray-900 absolute w-2/3 h-screen
+          className={`md:hidden text-gray-800 absolute w-2/3 h-screen
       px-7 py-2 font-medium bg-white top-0 duration-300 ${
         open ? "right-0" : "right-[-100%]"
       }`}
