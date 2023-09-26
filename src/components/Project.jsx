@@ -18,32 +18,31 @@ const Project = () => {
     {
       img: project1,
       name: "HooBank",
-      github_link: "https://github.com/Sridhar-C-25",
+      github_link: "https://github.com/karusaini/bank_modern_app",
       live_link: "https://hoobank-87500.web.app/",
     },
     {
       img: project2,
       name: "gpt3",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
+      github_link: "https://github.com/karusaini/gpt3_jsm",
       live_link: "https://gpt3-9cac2.web.app/",
     },
     {
       img: project3,
       name: "Netflix",
-      github_link: "https://github.com/Sridhar-C-25/highking",
+      github_link: "https://github.com/karusaini/netflix-clone",
       live_link: "https://netflix-clone-65a66.firebaseapp.com/",
     },
     {
       img: project4,
       name: " Gericht Restaurants",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
+      github_link: "https://github.com/karusaini/gerich-restaurant",
       live_link: "https://gerich-restaurant-394308.web.app/",
     },
     {
       img: project5,
       name: "Dashboard",
-      github_link: "https://github.com/Sridhar-C-25",
+      github_link: "https://github.com/karusaini/dashboard",
       live_link: "https://dashboard-17cf6.web.app/",
     },
   ];
