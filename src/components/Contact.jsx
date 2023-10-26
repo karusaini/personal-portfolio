@@ -17,6 +17,12 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          if (result.text === "OK") {
+            alert("Thanks for contacting!");
+            form.current.reset();
+          } else {
+            alert("Something went wrong!");
+          }
           console.log(result);
         },
         (error) => {
@@ -26,11 +32,11 @@ const Contact = () => {
   };
 
   const contact_info = [
-    { logo: "mail", text: "karinasaini@gmail.com" },
+    { logo: "mail", text: "hello@karinasaini.me" },
     { logo: "logo-whatsapp", text: "123 456 780" },
     {
       logo: "location",
-      text: "demo location",
+      text: "Virar, Mumbai",
     },
   ];
 
@@ -38,7 +44,7 @@ const Contact = () => {
     <section id="contact" className="py-10 px-3 text-white">
       <div className="text-center mt-8 ml-5 mr-5">
         <h3 className="text-4xl font-semibold">
-          Contact <span className="text-violet-600">Me</span>
+          Contact <span className="text-yellow-500">Me</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
 
@@ -72,7 +78,7 @@ const Contact = () => {
               rows={10}
             ></textarea>
 
-            <button type="submit" className="btn-primary hover:bg-violet-800">
+            <button type="submit" className="btn-primary hover:bg-yellow-600">
               Send Message
             </button>
           </form>
@@ -84,7 +90,7 @@ const Contact = () => {
                 className="flex flex-row  
                   text-left gap-4 flex-wrap items-center"
               >
-                <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-violet-600 rounded-full">
+                <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-yellow-500 rounded-full">
                   <ion-icon name={contact.logo}></ion-icon>
                 </div>
                 <p className="md:text-base text-sm  break-words">

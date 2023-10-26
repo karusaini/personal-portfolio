@@ -23,25 +23,25 @@ const Project = () => {
     },
     {
       img: project2,
-      name: "gpt3",
+      name: "ChatGPT Clone",
       github_link: "https://github.com/karusaini/gpt3_jsm",
       live_link: "https://gpt3-9cac2.web.app/",
     },
     {
       img: project3,
-      name: "Netflix",
+      name: "Netflix Clone",
       github_link: "https://github.com/karusaini/netflix-clone",
       live_link: "https://netflix-clone-65a66.firebaseapp.com/",
     },
     {
       img: project4,
-      name: " Gericht Restaurants",
+      name: "Gericht Restaurants",
       github_link: "https://github.com/karusaini/gerich-restaurant",
       live_link: "https://gerich-restaurant-394308.web.app/",
     },
     {
       img: project5,
-      name: "Dashboard",
+      name: "Tailwind+React Dashboard",
       github_link: "https://github.com/karusaini/dashboard",
       live_link: "https://dashboard-17cf6.web.app/",
     },
@@ -51,7 +51,7 @@ const Project = () => {
     <section id="projects" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-violet-600">Projects</span>
+          My <span className="text-yellow-500">Projects</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
@@ -67,10 +67,10 @@ const Project = () => {
             }}
             loop={true}
             autoplay={{
-              delay: 2000,
+              delay: 5000,
             }}
             pagination={{ clickable: true }}
-            modules={[Pagination, Autoplay]}
+            modules={[Autoplay]}
           >
             {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
@@ -81,14 +81,14 @@ const Project = () => {
                     <a
                       href={project_info.github_link}
                       target="_blank"
-                      className="text-violet-600 bg-gray-800 px-2 py-1 inline-block"
+                      className="text-yellow-500 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Github
                     </a>
                     <a
                       href={project_info.live_link}
                       target="_blank"
-                      className="text-violet-600 bg-gray-800 px-2 py-1 inline-block"
+                      className="text-yellow-500 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Live Demo
                     </a>
