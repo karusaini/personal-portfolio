@@ -32,8 +32,11 @@ const Contact = () => {
   };
 
   const contact_info = [
-    { logo: "mail", text: "hello@karinasaini.me" },
-    { logo: "logo-whatsapp", text: "123 456 780" },
+    {
+      logo: "mail",
+      text: "hello@karinasaini.me",
+      link: "mailto:hello@karinasaini.me",
+    },
     {
       logo: "location",
       text: "Virar, Mumbai",
@@ -85,7 +88,8 @@ const Contact = () => {
 
           <div className="flex flex-col gap-7 ">
             {contact_info.map((contact, i) => (
-              <div
+              <a
+                href={contact.link}
                 key={i}
                 className="flex flex-row  
                   text-left gap-4 flex-wrap items-center"
@@ -96,7 +100,7 @@ const Contact = () => {
                 <p className="md:text-base text-sm  break-words">
                   {contact.text}
                 </p>
-              </div>
+              </a>
             ))}
           </div>
         </div>

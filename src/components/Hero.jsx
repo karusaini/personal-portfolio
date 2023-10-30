@@ -32,7 +32,7 @@ const Hero = () => {
           </h4>
           <button className="btn-primary mt-8 ml-[0px!important] hover:bg-yellow-600">
             <p>
-              <a href="hello@karinasaini.me">Hire Me</a>
+              <a href="mailto:hello@karinasaini.me">Hire Me</a>
             </p>
           </button>
         </div>
