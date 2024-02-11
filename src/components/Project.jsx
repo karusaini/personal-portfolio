@@ -45,6 +45,12 @@ const Project = () => {
       github_link: "https://github.com/karusaini/dashboard",
       live_link: "https://dashboard-17cf6.web.app/",
     },
+    {
+      img: project6,
+      name: "Dropbox-clone-youtube+Tailwind+Nextjs",
+      github_link: "https://github.com/karusaini/dropbox-clone-youtube",
+      live_link: "https://dropbox-clone-youtube-wheat.vercel.app/",
+    },
   ];
 
   return (
