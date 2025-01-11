@@ -1,7 +1,8 @@
 import React from "react";
 import aboutImg from "../assets/images/avif.png";
+
 const About = () => {
-  const info = [{ text: "Completed Projects", count: "15" }];
+  const info = [{ text: "Completed Projects", count: "20" }];
   return (
     <section id="about" className="py-10 text-white">
       <div className="text-center mt-8 ">
@@ -13,9 +14,10 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3 m-20">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                👩‍💻 Passionate 19-year-old BCom student with a knack for creating
-                delightful web experiences. I love coding and want to make the
-                web a better place through Frontend Development.
+                👩‍💻 20-year-old BCom student with 2 years of learning and 6
+                months of hands-on experience in frontend development. I love
+                coding and want to make the web a better place through Frontend
+                Development.
               </p>
               <div className="flex mt-10 items-center gap-7 ml-24">
                 {info.map((content) => (
@@ -31,8 +33,8 @@ const About = () => {
               <br />
               <br />
               <a
-                href="./assets/Karinasaini-Resume.pdf"
-                download="Karinasaini-Resume.pdf"
+                href="assets/images/Karina_Saini_Resume.pdf"
+                download="Karina_Saini_Resume.pdf"
               >
                 <button
                   className="btn-primary 
