@@ -9,6 +9,7 @@ import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project6 from "../assets/images/project-6.png";
 import project7 from "../assets/images/project-7.png";
+import project8 from "../assets/images/project-8.png";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -59,6 +60,12 @@ const Project = () => {
       name: "Zoom-Clone+NextJS",
       github_link: "https://github.com/karusaini/zoom_clone",
       live_link: "https://zoom-clone-mauve-tau.vercel.app/",
+    },
+    {
+      img: project8,
+      name: "Talkbot AI ",
+      github_link: "https://github.com/karusaini/my-chatbot-project",
+      live_link: "https://talkbot-ai-new.vercel.app/",
     },
   ];
 
